@@ -77,7 +77,7 @@ String context = request.getContextPath();
 		<hr>
 		<!--글사진-->
 		<c:if test="${poto!=null }">
-			<span class="p">&nbsp&nbsp&nbsp <img src="<%=context%>/fileSave/${poto}">
+			<span class="p">&nbsp&nbsp&nbsp <img src="<%=context%>/fileSave/${poto}" style="max-width: 80%;">
 		</c:if>
 		<c:if test="${poto==null }"></c:if>
 		</span>
